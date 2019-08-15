@@ -1,0 +1,64 @@
+baseurl = "https://example.com/"
+title = "Peperoncino"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# googleAnalytics = "{your tracking code}"
+
+[taxonomies]
+  series = "series"
+
+[params]
+    author = "Peperoncino"
+    avatar = "avatar.jpg"
+    favicon = "favicon.ico"
+    description = """
+        I like sushi without wasabi.
+        <br>
+        <i class="fas fa-map-marker-alt"></i> Camp Nou
+    """
+    publicationYear = "2019"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+[outputs]
+    section = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/Doarakko"
+    weight = 30
+
+[[menu.main]]
+    identifier = "products"
+    # name = "Products"
+    pre = "<i class='fas fa-rocket'></i>"
+    url = "/products/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "qiita"
+    # name = "Qiita"
+    pre = "<i class='fas fa-sticky-note'></i>"
+    url = "https://qiita.com/Doarakko"
+    weight = 20
+
+[[menu.main]]
+    identifier = "hatena"
+    # name = "Hatena"
+    pre = "<i class='fas fa-pen-fancy'></i>"
+    url = "https://doarakko.hatenablog.com/"
+    weight = 30
+
+#[[menu.main]]
+#    identifier = "email"
+    # name = "Email"
+#    pre = "<i class='fa fa-envelope fa-lg'></i>"
+#    url = "mailto:username@example.com"
+#    weight = 40
