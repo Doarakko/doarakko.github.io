@@ -29,36 +29,43 @@ hasCJKLanguage = true
     section = ["JSON", "HTML"]
 
 [[menu.main]]
-    identifier = "github"
-    # name = "GitHub"
-    pre = "<i class='fab fa-github fa-lg'></i>"
-    url = "https://github.com/Doarakko"
-    weight = 30
-
-[[menu.main]]
     identifier = "products"
     # name = "Products"
     pre = "<i class='fas fa-rocket'></i>"
     url = "/products/"
-    weight = 10
+    weight = 1
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/Doarakko"
+    weight = 2
 
 [[menu.main]]
     identifier = "qiita"
     # name = "Qiita"
     pre = "<i class='fas fa-sticky-note'></i>"
     url = "https://qiita.com/Doarakko"
-    weight = 20
+    weight = 3
 
 [[menu.main]]
     identifier = "hatena"
     # name = "Hatena"
     pre = "<i class='fas fa-pen-fancy'></i>"
     url = "https://doarakko.hatenablog.com/"
-    weight = 30
+    weight = 4
 
-#[[menu.main]]
-#    identifier = "email"
+[[menu.main]]
+    identifier = "codesandbox"
+    # name = "CodeSandbox"
+    pre = "<i class='fas fa-laptop-code'></i>"
+    url = "https://codesandbox.io/u/Doarakko"
+    weight = 5
+
+[[menu.main]]
+    identifier = "email"
     # name = "Email"
-#    pre = "<i class='fa fa-envelope fa-lg'></i>"
-#    url = "mailto:username@example.com"
-#    weight = 40
+    pre = "<i class='fa fa-envelope'></i>"
+    url = "mailto:e8v644i4h48cd2@gmail.com"
+    weight = 6
