@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Peperoncino</title>
@@ -24,13 +24,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://doarakko.github.io/products/</guid>
-      <description>Products Otoko Banzuke Search Otoko from YouTube comments, and make banzuke based on comment like count.
+      <description>Products go-yugioh Go library for accessing the Yu-Gi-Oh! API by YGOPRODeck.
 
-bigburger bigburger is command line tool displayed big burger with toppings.
-$ bigburger -p 3 -t 2 -n 3 -c 2 -l 2 -i 0.6  
-Kagoole Search Kaggle competitions and solutions based on data and predict type, evaluation metric, etc.
-
-Kaggle Calendar Kaggle google calendar by data type.</description>
+import ( &amp;quot;fmt&amp;quot; &amp;quot;github.com/Doarakko/go-yugioh/yugioh&amp;quot; ) func main() { client := yugioh.NewClient() cards, _, _ := client.Cards.List( &amp;amp;yugioh.CardsListOptions{ KeyWord: &amp;quot;dragon&amp;quot;, Type: &amp;quot;Fusion Monster&amp;quot;, Attribute: &amp;quot;light&amp;quot;}) for _, card := range cards { fmt.Printf(&amp;quot;Name: %v\nType: %v\nRace: %v\nDescription:\n%v\n\n&amp;quot;, card.Name, card.Type, card.Race, card.Description) } }  Name: A-to-Z-Dragon Buster Cannon Type: Fusion Monster Race: Machine Description: &amp;quot;ABC-Dragon Buster&amp;quot; + &amp;quot;XYZ-Dragon Cannon&amp;quot; Must be Special Summoned (from your Extra Deck) by banishing cards you control with the above original names, and cannot be Special Summoned by other ways.</description>
     </item>
     
   </channel>
