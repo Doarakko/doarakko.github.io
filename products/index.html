@@ -1,92 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <title>
-      
-           - Peperoncino
-      
-  </title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="map[]" />
-  <link rel="shortcut icon" type="image/x-icon" href="https://doarakko.github.io/img/favicon.ico">
+<!doctype html><html><head><title>- Peperoncino</title><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="map[]"><link rel="shortcut icon" type=image/x-icon href=https://doarakko.github.io/img/favicon.ico><link rel=stylesheet href=https://doarakko.github.io/style.min.fa9adc71352e18497c5586863206c89ba474bc37bb749097f5d936ed9c671771.css><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.8.1/css/all.css integrity=sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf crossorigin=anonymous><meta property="og:title" content><meta property="og:description" content="Products go-yugioh Go library for accessing the Yu-Gi-Oh! API by YGOPRODeck.
 
-  
-  
-  
-  
-  
-  <link rel="stylesheet" href="https://doarakko.github.io/style.min.fa9adc71352e18497c5586863206c89ba474bc37bb749097f5d936ed9c671771.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+import ( &#34;fmt&#34; &#34;github.com/Doarakko/go-yugioh/yugioh&#34; ) func main() { client := yugioh.NewClient() cards, _, _ := client.Cards.List( &amp;yugioh.CardsListOptions{ KeyWord: &#34;dragon&#34;, Type: &#34;Fusion Monster&#34;, Attribute: &#34;light&#34;}) for _, card := range cards { fmt.Printf(&#34;Name: %v\nType: %v\nRace: %v\nDescription:\n%v\n\n&#34;, card.Name, card.Type, card.Race, card.Description) } }  Name: A-to-Z-Dragon Buster Cannon Type: Fusion Monster Race: Machine Description: &#34;ABC-Dragon Buster&#34; &#43; &#34;XYZ-Dragon Cannon&#34; Must be Special Summoned (from your Extra Deck) by banishing cards you control with the above original names, and cannot be Special Summoned by other ways."><meta property="og:type" content="article"><meta property="og:url" content="https://doarakko.github.io/products/"><meta itemprop=name content><meta itemprop=description content="Products go-yugioh Go library for accessing the Yu-Gi-Oh! API by YGOPRODeck.
 
-  
-  
+import ( &#34;fmt&#34; &#34;github.com/Doarakko/go-yugioh/yugioh&#34; ) func main() { client := yugioh.NewClient() cards, _, _ := client.Cards.List( &amp;yugioh.CardsListOptions{ KeyWord: &#34;dragon&#34;, Type: &#34;Fusion Monster&#34;, Attribute: &#34;light&#34;}) for _, card := range cards { fmt.Printf(&#34;Name: %v\nType: %v\nRace: %v\nDescription:\n%v\n\n&#34;, card.Name, card.Type, card.Race, card.Description) } }  Name: A-to-Z-Dragon Buster Cannon Type: Fusion Monster Race: Machine Description: &#34;ABC-Dragon Buster&#34; &#43; &#34;XYZ-Dragon Cannon&#34; Must be Special Summoned (from your Extra Deck) by banishing cards you control with the above original names, and cannot be Special Summoned by other ways."><meta itemprop=wordCount content="338"><meta itemprop=keywords content><meta name=twitter:card content="summary"><meta name=twitter:title content><meta name=twitter:description content="Products go-yugioh Go library for accessing the Yu-Gi-Oh! API by YGOPRODeck.
 
-  <meta property="og:title" content="" />
-<meta property="og:description" content="Products go-yugioh Go library for accessing the Yu-Gi-Oh! API by YGOPRODeck.
-
-import ( &quot;fmt&quot; &quot;github.com/Doarakko/go-yugioh/yugioh&quot; ) func main() { client := yugioh.NewClient() cards, _, _ := client.Cards.List( &amp;yugioh.CardsListOptions{ KeyWord: &quot;dragon&quot;, Type: &quot;Fusion Monster&quot;, Attribute: &quot;light&quot;}) for _, card := range cards { fmt.Printf(&quot;Name: %v\nType: %v\nRace: %v\nDescription:\n%v\n\n&quot;, card.Name, card.Type, card.Race, card.Description) } }  Name: A-to-Z-Dragon Buster Cannon Type: Fusion Monster Race: Machine Description: &quot;ABC-Dragon Buster&quot; &#43; &quot;XYZ-Dragon Cannon&quot; Must be Special Summoned (from your Extra Deck) by banishing cards you control with the above original names, and cannot be Special Summoned by other ways." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://doarakko.github.io/products/" />
-
-<meta itemprop="name" content="">
-<meta itemprop="description" content="Products go-yugioh Go library for accessing the Yu-Gi-Oh! API by YGOPRODeck.
-
-import ( &quot;fmt&quot; &quot;github.com/Doarakko/go-yugioh/yugioh&quot; ) func main() { client := yugioh.NewClient() cards, _, _ := client.Cards.List( &amp;yugioh.CardsListOptions{ KeyWord: &quot;dragon&quot;, Type: &quot;Fusion Monster&quot;, Attribute: &quot;light&quot;}) for _, card := range cards { fmt.Printf(&quot;Name: %v\nType: %v\nRace: %v\nDescription:\n%v\n\n&quot;, card.Name, card.Type, card.Race, card.Description) } }  Name: A-to-Z-Dragon Buster Cannon Type: Fusion Monster Race: Machine Description: &quot;ABC-Dragon Buster&quot; &#43; &quot;XYZ-Dragon Cannon&quot; Must be Special Summoned (from your Extra Deck) by banishing cards you control with the above original names, and cannot be Special Summoned by other ways.">
-
-
-
-<meta itemprop="wordCount" content="338">
-
-
-
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Products go-yugioh Go library for accessing the Yu-Gi-Oh! API by YGOPRODeck.
-
-import ( &quot;fmt&quot; &quot;github.com/Doarakko/go-yugioh/yugioh&quot; ) func main() { client := yugioh.NewClient() cards, _, _ := client.Cards.List( &amp;yugioh.CardsListOptions{ KeyWord: &quot;dragon&quot;, Type: &quot;Fusion Monster&quot;, Attribute: &quot;light&quot;}) for _, card := range cards { fmt.Printf(&quot;Name: %v\nType: %v\nRace: %v\nDescription:\n%v\n\n&quot;, card.Name, card.Type, card.Race, card.Description) } }  Name: A-to-Z-Dragon Buster Cannon Type: Fusion Monster Race: Machine Description: &quot;ABC-Dragon Buster&quot; &#43; &quot;XYZ-Dragon Cannon&quot; Must be Special Summoned (from your Extra Deck) by banishing cards you control with the above original names, and cannot be Special Summoned by other ways."/>
-
-  <!--[if lte IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-  <![endif]-->
-
-  <!--[if lt IE 9]>
-  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-  <![endif]-->
-
-  </head>
-
-  <body>
-    
-  <h1></h1>
-  <header>
-  
-  <div class="avatar">
-    <img class="avatarMask" src="https://doarakko.github.io//img/avatar.jpg">
-    <a href="https://doarakko.github.io/"><img src="https://doarakko.github.io//img/avatar-border.svg"></a>
-  </div>
-  
-  <h2><a class="author" href="https://doarakko.github.io/">Peperoncino</a></h2>
-</header>
-
-  
-  
-  
-  <div id="contentBody">
-    
-
-<h1 id="products">Products</h1>
-
-<h2 id="go-yugioh-https-github-com-doarakko-go-yugioh"><a href="https://github.com/Doarakko/go-yugioh">go-yugioh</a></h2>
-
-<p>Go library for accessing the <a href="https://db.ygoprodeck.com/api-guide/">Yu-Gi-Oh! API by YGOPRODeck</a>.</p>
-
-<p><a href="https://github.com/Doarakko/go-yugioh"><img src="https://doarakko.github.io/img/go-yugioh-github.png" alt="go yugioh github" /></a></p>
-
-<pre><code>import (
+import ( &#34;fmt&#34; &#34;github.com/Doarakko/go-yugioh/yugioh&#34; ) func main() { client := yugioh.NewClient() cards, _, _ := client.Cards.List( &amp;yugioh.CardsListOptions{ KeyWord: &#34;dragon&#34;, Type: &#34;Fusion Monster&#34;, Attribute: &#34;light&#34;}) for _, card := range cards { fmt.Printf(&#34;Name: %v\nType: %v\nRace: %v\nDescription:\n%v\n\n&#34;, card.Name, card.Type, card.Race, card.Description) } }  Name: A-to-Z-Dragon Buster Cannon Type: Fusion Monster Race: Machine Description: &#34;ABC-Dragon Buster&#34; &#43; &#34;XYZ-Dragon Cannon&#34; Must be Special Summoned (from your Extra Deck) by banishing cards you control with the above original names, and cannot be Special Summoned by other ways."><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script><script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]--></head><body><h1></h1><header><div class=avatar><img class=avatarMask src=https://doarakko.github.io//img/avatar.jpg>
+<a href=https://doarakko.github.io/><img src=https://doarakko.github.io//img/avatar-border.svg></a></div><h2><a class=author href=https://doarakko.github.io/>Peperoncino</a></h2></header><div id=contentBody><h1 id=products>Products</h1><h2 id=go-yugioh-https-github-com-doarakko-go-yugioh><a href=https://github.com/Doarakko/go-yugioh>go-yugioh</a></h2><p>Go library for accessing the <a href=https://db.ygoprodeck.com/api-guide/>Yu-Gi-Oh! API by YGOPRODeck</a>.</p><p><a href=https://github.com/Doarakko/go-yugioh><img src=https://doarakko.github.io/img/go-yugioh-github.png alt="go yugioh github"></a></p><pre><code>import (
 	&quot;fmt&quot;
 
 	&quot;github.com/Doarakko/go-yugioh/yugioh&quot;
@@ -103,9 +22,7 @@ func main() {
 			card.Name, card.Type, card.Race, card.Description)
 	}
 }
-</code></pre>
-
-<pre><code>Name: A-to-Z-Dragon Buster Cannon
+</code></pre><pre><code>Name: A-to-Z-Dragon Buster Cannon
 Type: Fusion Monster
 Race: Machine
 Description:
@@ -119,62 +36,7 @@ Description:
 &quot;A-Assault Core&quot; + &quot;B-Buster Drake&quot; + &quot;C-Crush Wyvern&quot;
 Must first be Special Summoned (from your Extra Deck) by banishing the above cards you control and/or from your Graveyard. (You do not use &quot;Polymerization&quot;.) Once per turn, during either player's turn: You can discard 1 card, then target 1 card on the field; banish it. During your opponent's turn: You can Tribute this card, then target 3 of your banished LIGHT Machine-Type Union monsters with different names; Special Summon them (this is a Quick Effect).
 ...
-</code></pre>
-
-<h2 id="draw-https-github-com-doarakko-draw"><a href="https://github.com/Doarakko/draw">draw</a></h2>
-
-<p>Draw Yu-Gi-Oh! Card.</p>
-
-<p><a href="https://github.com/Doarakko/draw"><img src="https://doarakko.github.io/img/draw-sample.png" alt="draw sample" /></a></p>
-
-<h2 id="otoko-banzuke-https-otoko-banzuke-herokuapp-com"><a href="https://otoko-banzuke.herokuapp.com">Otoko Banzuke</a></h2>
-
-<p>Search Otoko from YouTube comments, and make banzuke based on comment like count.</p>
-
-<p><a href="https://otoko-banzuke.herokuapp.com"><img src="https://doarakko.github.io/img/otoko-banzuke-sample.jpg" alt="Otoko Banzuke sample" /></a></p>
-
-<h2 id="bigburger-https-github-com-doarakko-bigburger"><a href="https://github.com/Doarakko/bigburger">bigburger</a></h2>
-
-<p>bigburger is command line tool displayed big burger with toppings.</p>
-
-<pre><code>$ bigburger -p 3 -t 2 -n 3 -c 2 -l 2 -i 0.6
-</code></pre>
-
-<p><a href="https://github.com/Doarakko/bigburger"><img src="https://github.com/Doarakko/bigburger/raw/master/example.png" alt="bigburger sample" /></a></p>
-
-<h2 id="kagoole-https-kagoole-herokuapp-com"><a href="https://kagoole.herokuapp.com">Kagoole</a></h2>
-
-<p>Search <a href="https://kaggle.com">Kaggle</a> competitions and solutions based on data and predict type, evaluation metric, etc.</p>
-
-<p><a href="https://kagoole.herokuapp.com"><img src="https://doarakko.github.io/img/kagoole-sample.jpg" alt="Kagoole sample" /></a></p>
-
-<h2 id="kaggle-calendar-https-kaggle-calendar-herokuapp-com"><a href="https://kaggle-calendar.herokuapp.com">Kaggle Calendar</a></h2>
-
-<p><a href="https://kaggle.com">Kaggle</a> google calendar by data type.</p>
-
-<p><a href="https://kaggle-calendar.herokuapp.com"><img src="https://doarakko.github.io/img/kaggle-calendar-sample.jpg" alt="Kaggle Calendar sample" /></a></p>
-
-<h2 id="kaggle-kernel-notification-https-github-com-doarakko-kaggle-kernel-notification"><a href="https://github.com/Doarakko/kaggle-kernel-notification">Kaggle Kernel Notification</a></h2>
-
-<p>Notify new <a href="https://kaggle.com">Kaggle</a> kernels to Slack or LINE without coding.</p>
-
-<p><a href="(https://github.com/Doarakko/kaggle-kernel-notification)"><img src="https://doarakko.github.io/img/kaggle-kernel-notification-sample.jpg" alt="Kaggle Kernel Notification sample" /></a></p>
-
-<h2 id="kaggle-competition-notification-https-github-com-doarakko-kaggle-competition-notification"><a href="https://github.com/Doarakko/kaggle-competition-notification">Kaggle Competition Notification</a></h2>
-
-<p>Notify new <a href="https://kaggle.com">Kaggle</a> competition to Slack or LINE without coding.</p>
-
-<p><a href="https://github.com/Doarakko/kaggle-competition-notification"><img src="https://doarakko.github.io/img/kaggle-competition-notification-sample.jpg" alt="Kaggle Competition Notification sample" /></a></p>
-
-  </div>
-  <footer>
-  <p>
-  &copy; 2019 Peperoncino.
-  Powered by <a href="https://gohugo.io/">Hugo</a>
-  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
-  </p>
-</footer>
-
-
-  </body>
-</html>
+</code></pre><h2 id=draw-https-github-com-doarakko-draw><a href=https://github.com/Doarakko/draw>draw</a></h2><p>Draw Yu-Gi-Oh! Card.</p><p><a href=https://github.com/Doarakko/draw><img src=https://doarakko.github.io/img/draw-sample.png alt="draw sample"></a></p><h2 id=otoko-banzuke-https-otoko-banzuke-herokuapp-com><a href=https://otoko-banzuke.herokuapp.com>Otoko Banzuke</a></h2><p>Search Otoko from YouTube comments, and make banzuke based on comment like count.</p><p><a href=https://otoko-banzuke.herokuapp.com><img src=https://doarakko.github.io/img/otoko-banzuke-sample.jpg alt="Otoko Banzuke sample"></a></p><h2 id=bigburger-https-github-com-doarakko-bigburger><a href=https://github.com/Doarakko/bigburger>bigburger</a></h2><p>bigburger is command line tool displayed big burger with toppings.</p><pre><code>$ bigburger -p 3 -t 2 -n 3 -c 2 -l 2 -i 0.6
+</code></pre><p><a href=https://github.com/Doarakko/bigburger><img src=https://github.com/Doarakko/bigburger/raw/master/example.png alt="bigburger sample"></a></p><h2 id=kagoole-https-kagoole-herokuapp-com><a href=https://kagoole.herokuapp.com>Kagoole</a></h2><p>Search <a href=https://kaggle.com>Kaggle</a> competitions and solutions based on data and predict type, evaluation metric, etc.</p><p><a href=https://kagoole.herokuapp.com><img src=https://doarakko.github.io/img/kagoole-sample.jpg alt="Kagoole sample"></a></p><h2 id=kaggle-calendar-https-kaggle-calendar-herokuapp-com><a href=https://kaggle-calendar.herokuapp.com>Kaggle Calendar</a></h2><p><a href=https://kaggle.com>Kaggle</a> google calendar by data type.</p><p><a href=https://kaggle-calendar.herokuapp.com><img src=https://doarakko.github.io/img/kaggle-calendar-sample.jpg alt="Kaggle Calendar sample"></a></p><h2 id=kaggle-kernel-notification-https-github-com-doarakko-kaggle-kernel-notification><a href=https://github.com/Doarakko/kaggle-kernel-notification>Kaggle Kernel Notification</a></h2><p>Notify new <a href=https://kaggle.com>Kaggle</a> kernels to Slack or LINE without coding.</p><p><a href=(https://github.com/Doarakko/kaggle-kernel-notification)><img src=https://doarakko.github.io/img/kaggle-kernel-notification-sample.jpg alt="Kaggle Kernel Notification sample"></a></p><h2 id=kaggle-competition-notification-https-github-com-doarakko-kaggle-competition-notification><a href=https://github.com/Doarakko/kaggle-competition-notification>Kaggle Competition Notification</a></h2><p>Notify new <a href=https://kaggle.com>Kaggle</a> competition to Slack or LINE without coding.</p><p><a href=https://github.com/Doarakko/kaggle-competition-notification><img src=https://doarakko.github.io/img/kaggle-competition-notification-sample.jpg alt="Kaggle Competition Notification sample"></a></p></div><footer><p>&copy; 2019 Peperoncino.
+Powered by <a href=https://gohugo.io/>Hugo</a>
+using the <a href=https://github.com/koirand/pulp/>pulp</a> theme.</p></footer></body></html>
