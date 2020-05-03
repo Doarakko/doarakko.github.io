@@ -47,7 +47,7 @@ Must first be Special Summoned (from your Extra Deck) by banishing the above car
 
 Draw Yu-Gi-Oh! Card.
 
-[![draw sample](/img/draw-sample.png)](https://github.com/Doarakko/draw)
+[![draw sample](/img/draw-sample.gif)](https://github.com/Doarakko/draw)
 
 ## [Otoko Banzuke](https://otoko-banzuke.herokuapp.com)
 
