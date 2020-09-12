@@ -2,6 +2,7 @@
 
 - [CodeSandbox](https://codesandbox.io/u/Doarakko)
 - [dev.to](https://dev.to/doarakko)
+- [Speaker Deck](https://speakerdeck.com/doarakko)
 
 ## Skill
 
