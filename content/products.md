@@ -1,12 +1,20 @@
 # Products
 
+## [iyashi](https://github.com/Doarakko/iyashi)
+
+"iyashi" is a slack bot that randomly returns the pictures of animals you posted.
+
+When you post a picture of an animal, it will be automatically classified and registered.
+
+[![iyashi sample](/img/iyashi-sample.gif)](https://github.com/Doarakko/iyashi)
+
 ## [go-yugioh](https://github.com/Doarakko/go-yugioh)
 
 Go library for accessing the [Yu-Gi-Oh! API by YGOPRODeck](https://db.ygoprodeck.com/api-guide/).
 
 [![go yugioh github](/img/go-yugioh-github.png)](https://github.com/Doarakko/go-yugioh)
 
-```
+```go
 import (
 	"fmt"
 
