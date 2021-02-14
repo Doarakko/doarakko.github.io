@@ -1,5 +1,11 @@
 # Products
 
+## [draw-action](https://github.com/Doarakko/draw-action)
+
+Draw Yu-Gi-Oh! Card on GitHub issue.
+
+![draw-action sample](/img/draw-action.gif)
+
 ## [iyashi](https://github.com/Doarakko/iyashi)
 
 "iyashi" is a slack bot that randomly returns the pictures of animals you posted.
