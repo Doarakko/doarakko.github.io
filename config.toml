@@ -1,5 +1,5 @@
 baseurl = "https://doarakko.github.io/"
-title = "Peperoncino"
+title = "Doarakko"
 theme = "pulp"
 canonifyurls = true
 hasCJKLanguage = true
@@ -11,7 +11,7 @@ hasCJKLanguage = true
   series = "series"
 
 [params]
-    author = "Peperoncino"
+    author = "Doarakko"
     avatar = "avatar.jpg"
     favicon = "favicon.ico"
     description = """
@@ -50,18 +50,11 @@ hasCJKLanguage = true
     weight = 30
 
 [[menu.main]]
-    identifier = "qiita"
-    # name = "Qiita"
-    pre = "<i class='fas fa-sticky-note'></i>"
-    url = "https://qiita.com/Doarakko"
-    weight = 40
-
-[[menu.main]]
-    identifier = "hatena"
-    # name = "Hatena"
-    pre = "<i class='fas fa-pen-fancy'></i>"
-    url = "https://doarakko.hatenablog.com/"
-    weight = 50
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/dodododoarakko"
+    weight = 35
 
 [[menu.main]]
     identifier = "email"
