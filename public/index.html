@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doarakko</title>
+  <link rel="icon" href="/img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="/css/portfolio.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="/" class="logo">Doarakko</a>
+    <nav class="nav">
+      <a href="#products" class="nav-link">Products</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#links" class="nav-link">Links</a>
+      <a href="mailto:e8v644i4h48cd2@gmail.com" class="cta-btn">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="about">
+    <img src="/img/avatar.jpg" alt="avatar" class="avatar">
+    <div class="hero-text">
+      <h1 class="hero-title">Hi, I'm Doarakko 👋</h1>
+      <p class="hero-sub">Software Engineer in Japan.<br>I like sushi without wasabi.</p>
+    </div>
+    <div class="status-badge">
+      <span class="status-dot"></span>
+      <span class="status-text">Open to collaborate</span>
+    </div>
+  </section>
+
+  <!-- Links -->
+  <section class="links-section" id="links">
+    <h2 class="section-title">Links</h2>
+    <div class="links-grid">
+      <a href="https://github.com/Doarakko" class="link-card" target="_blank" rel="noopener">
+        <div class="link-icon" style="background:#1A1918">
+          <i data-lucide="github"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-name">GitHub</span>
+          <span class="link-desc">@Doarakko</span>
+        </div>
+        <i data-lucide="arrow-up-right" class="link-arrow"></i>
+      </a>
+      <a href="https://twitter.com/dodododoarakko" class="link-card" target="_blank" rel="noopener">
+        <div class="link-icon" style="background:#1DA1F2">
+          <i data-lucide="twitter"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-name">X / Twitter</span>
+          <span class="link-desc">@dodododoarakko</span>
+        </div>
+        <i data-lucide="arrow-up-right" class="link-arrow"></i>
+      </a>
+      <a href="https://zenn.dev/peperoncicicino" class="link-card" target="_blank" rel="noopener">
+        <div class="link-icon" style="background:#3EA8FF">
+          <i data-lucide="pen-line"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-name">Zenn</span>
+          <span class="link-desc">@peperoncicicino</span>
+        </div>
+        <i data-lucide="arrow-up-right" class="link-arrow"></i>
+      </a>
+    </div>
+    <div class="links-grid" style="margin-top:16px">
+      <a href="https://doarakko.hatenablog.com/" class="link-card" target="_blank" rel="noopener">
+        <div class="link-icon" style="background:#4A4A4A">
+          <i data-lucide="notebook-pen"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-name">Hatena Blog</span>
+          <span class="link-desc">ブログ</span>
+        </div>
+        <i data-lucide="arrow-up-right" class="link-arrow"></i>
+      </a>
+      <a href="https://qiita.com/Doarakko" class="link-card" target="_blank" rel="noopener">
+        <div class="link-icon" style="background:#55C500">
+          <i data-lucide="file-code-2"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-name">Qiita</span>
+          <span class="link-desc">@Doarakko</span>
+        </div>
+        <i data-lucide="arrow-up-right" class="link-arrow"></i>
+      </a>
+      <a href="https://speakerdeck.com/doarakko" class="link-card" target="_blank" rel="noopener">
+        <div class="link-icon" style="background:#009287">
+          <i data-lucide="presentation"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-name">Speaker Deck</span>
+          <span class="link-desc">スライド</span>
+        </div>
+        <i data-lucide="arrow-up-right" class="link-arrow"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="apps-section" id="products">
+    <div class="apps-header">
+      <h2 class="section-title">Products</h2>
+      <span class="apps-count">12 projects</span>
+    </div>
+    <div class="apps-grid">
+      <div class="apps-col">
+        <!-- PokeFit -->
+        <a href="https://pokefit.vercel.app/" class="app-card" target="_blank" rel="noopener">
+          <div class="app-img"><img src="/img/pokefit.png" alt="PokeFit"></div>
+          <div class="app-body">
+            <span class="badge badge-green">Web App</span>
+            <h3 class="app-title">PokeFit</h3>
+            <p class="app-desc">Find the Pok&eacute;mon with the same height and weight as you.</p>
+          </div>
+        </a>
+        <!-- draw-action -->
+        <a href="https://github.com/Doarakko/draw-action" class="app-card" target="_blank" rel="noopener">
+          <div class="app-img"><img src="/img/draw-action.gif" alt="draw-action"></div>
+          <div class="app-body">
+            <span class="badge badge-gray">GitHub Actions</span>
+            <h3 class="app-title">draw-action</h3>
+            <p class="app-desc">Draw Yu-Gi-Oh! Card on GitHub issue.</p>
+          </div>
+        </a>
+        <!-- action-lgtmoon -->
+        <a href="https://github.com/Doarakko/action-lgtmoon" class="app-card" target="_blank" rel="noopener">
+          <div class="app-img"><img src="/img/action-lgtmoon.gif" alt="action-lgtmoon"></div>
+          <div class="app-body">
+            <span class="badge badge-gray">GitHub Actions</span>
+            <h3 class="app-title">action-lgtmoon</h3>
+            <p class="app-desc">Post LGTM image on GitHub Issue and Pull request.</p>
+          </div>
+        </a>
+        <!-- action-switchbot -->
+        <a href="https://github.com/Doarakko/action-switchbot" class="app-card" target="_blank" rel="noopener">
+          <div class="app-img"><img src="/img/action-switchbot.png" alt="action-switchbot"></div>
+          <div class="app-body">
+            <span class="badge badge-gray">GitHub Actions</span>
+            <h3 class="app-title">action-switchbot</h3>
+            <p class="app-desc">Operate SwitchBot using GitHub Actions.</p>
+          </div>
+        </a>
+        <!-- iyashi -->
+        <a href="https://github.com/Doarakko/iyashi" class="app-card" target="_blank" rel="noopener">
+          <div class="app-img"><img src="/img/iyashi-sample.gif" alt="iyashi"></div>
+          <div class="app-body">
+            <span class="badge badge-green">Bot</span>
+            <h3 class="app-title">iyashi</h3>
+            <p class="app-desc">Slack bot that randomly returns the pictures of animals you posted.</p>
+          </div>
+        </a>
+        <!-- Kagoole Bot -->
+        <a href="https://twitter.com/kagoole" class="app-card" target="_blank" rel="noopener">
+          <div class="app-img"><img src="/img/kagoole-example.png" alt="Kagoole"></div>
+          <div class="app-body">
+            <span class="badge badge-green">Bot</span>
+            <h3 class="app-title">Kagoole</h3>
+            <p class="app-desc">Tweet when new Kaggle competition is launched.</p>
+          </div>
+        </a>
+      </div>
+      <div class="apps-col">
+        <!-- yattoite -->
+        <a href="https://github.com/Doarakko/yattoite" class="app-card" target="_blank" rel="noopener">
+          <div class="app-img"><img src="/img/yattoite.png" alt="yattoite"></div>
+          <div class="app-body">
+            <span class="badge badge-green">Bot</span>
+            <h3 class="app-title">yattoite</h3>
+            <p class="app-desc">Slack bot that responds on my behalf on holidays.</p>
+          </div>
+        </a>
+        <!-- 252 -->
+        <a href="https://github.com/Doarakko/252" class="app-card" target="_blank" rel="noopener">
+          <div class="app-img"><img src="/img/252.png" alt="252"></div>
+          <div class="app-body">
+            <span class="badge badge-green">Bot</span>
+            <h3 class="app-title">252</h3>
+            <p class="app-desc">Slack bot that sends a message to the last person in the office.</p>
+          </div>
+        </a>
+        <!-- bigburger -->
+        <a href="https://github.com/Doarakko/bigburger" class="app-card" target="_blank" rel="noopener">
+          <div class="app-img"><img src="/img/bigburger-sample.gif" alt="bigburger"></div>
+          <div class="app-body">
+            <span class="badge badge-gray">CLI</span>
+            <h3 class="app-title">bigburger</h3>
+            <p class="app-desc">Command line tool displayed big burger with toppings.</p>
+          </div>
+        </a>
+        <!-- draw -->
+        <a href="https://github.com/Doarakko/draw" class="app-card" target="_blank" rel="noopener">
+          <div class="app-img"><img src="/img/draw-sample.gif" alt="draw"></div>
+          <div class="app-body">
+            <span class="badge badge-gray">CLI</span>
+            <h3 class="app-title">draw</h3>
+            <p class="app-desc">Draw Yu-Gi-Oh! Card.</p>
+          </div>
+        </a>
+        <!-- kon -->
+        <a href="https://github.com/Doarakko/kon" class="app-card" target="_blank" rel="noopener">
+          <div class="app-img"><img src="/img/kon-sample.gif" alt="kon"></div>
+          <div class="app-body">
+            <span class="badge badge-gray">CLI</span>
+            <h3 class="app-title">kon</h3>
+            <p class="app-desc">Display fox image in the terminal.</p>
+          </div>
+        </a>
+        <!-- tvshow -->
+        <a href="https://github.com/Doarakko/tvshow" class="app-card" target="_blank" rel="noopener">
+          <div class="app-img app-img-placeholder" style="background:#1a1918">
+            <i data-lucide="tv" style="width:48px;height:48px;color:#6D6C6A"></i>
+          </div>
+          <div class="app-body">
+            <span class="badge badge-gray">CLI</span>
+            <h3 class="app-title">tvshow</h3>
+            <p class="app-desc">Display Japanese TV schedules in the terminal.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer-text">Made with care by Doarakko</p>
+    <div class="footer-links">
+      <a href="https://github.com/Doarakko" class="footer-link">GitHub</a>
+      <a href="https://twitter.com/dodododoarakko" class="footer-link">X / Twitter</a>
+      <a href="https://zenn.dev/peperoncicicino" class="footer-link">Zenn</a>
+      <a href="mailto:e8v644i4h48cd2@gmail.com" class="footer-link">Email</a>
+    </div>
+    <p class="footer-copy">&copy; 2019 Doarakko. All rights reserved.</p>
+  </footer>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>
