@@ -1,18 +1,10 @@
 # [doarakko.github.io](https://doarakko.github.io/)
 
-## Requirements
+Static portfolio site. Deployed to GitHub Pages via GitHub Actions.
 
-- Hugo CLI
-
-## Usage
+## Local preview
 
 ```sh
-hugo server
-```
-
-### Update pulp themes
-
-```bash
-rm -rf themes/pulp
-git clone https://github.com/koirand/pulp.git themes/pulp
+cd public
+python3 -m http.server 8080
 ```
