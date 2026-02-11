@@ -15,12 +15,6 @@
   <!-- Header -->
   <header class="header">
     <a href="/" class="logo">Doarakko</a>
-    <nav class="nav">
-      <a href="#products" class="nav-link">Products</a>
-      <a href="#about" class="nav-link">About</a>
-      <a href="#links" class="nav-link">Links</a>
-      <a href="mailto:e8v644i4h48cd2@gmail.com" class="cta-btn">Contact</a>
-    </nav>
   </header>
 
   <main class="container">
@@ -29,11 +23,7 @@
     <img src="/img/avatar.jpg" alt="avatar" class="avatar">
     <div class="hero-text">
       <h1 class="hero-title">Hi, I'm Doarakko 👋</h1>
-      <p class="hero-sub">Software Engineer in Japan.<br>I like sushi without wasabi.</p>
-    </div>
-    <div class="status-badge">
-      <span class="status-dot"></span>
-      <span class="status-text">Open to collaborate</span>
+      <p class="hero-sub">I like sushi without wasabi.</p>
     </div>
   </section>
 
@@ -99,7 +89,44 @@
         </div>
         <div class="link-text">
           <span class="link-name">Speaker Deck</span>
-          <span class="link-desc">スライド</span>
+          <span class="link-desc">Slides</span>
+        </div>
+        <i data-lucide="arrow-up-right" class="link-arrow"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section class="links-section" id="blog">
+    <h2 class="section-title">Blog</h2>
+    <div class="links-grid">
+      <a href="https://devblog.thebase.in/entry/2025/04/23/110000" class="link-card" target="_blank" rel="noopener">
+        <div class="link-icon" style="background:#00A4DE">
+          <i data-lucide="file-text"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-name">フルサイクルエンジニアとしてどう事業に貢献するか</span>
+          <span class="link-desc">BASE Product Team Blog</span>
+        </div>
+        <i data-lucide="arrow-up-right" class="link-arrow"></i>
+      </a>
+      <a href="https://devblog.thebase.in/entry/2024/05/20/110000" class="link-card" target="_blank" rel="noopener">
+        <div class="link-icon" style="background:#00A4DE">
+          <i data-lucide="file-text"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-name">異なるチームでリーダーを務めて感じた役割の変化</span>
+          <span class="link-desc">BASE Product Team Blog</span>
+        </div>
+        <i data-lucide="arrow-up-right" class="link-arrow"></i>
+      </a>
+      <a href="https://devblog.thebase.in/entry/work-happy" class="link-card" target="_blank" rel="noopener">
+        <div class="link-icon" style="background:#00A4DE">
+          <i data-lucide="file-text"></i>
+        </div>
+        <div class="link-text">
+          <span class="link-name">職場を明るくする</span>
+          <span class="link-desc">BASE Product Team Blog</span>
         </div>
         <i data-lucide="arrow-up-right" class="link-arrow"></i>
       </a>
@@ -110,122 +137,170 @@
   <section class="apps-section" id="products">
     <div class="apps-header">
       <h2 class="section-title">Products</h2>
-      <span class="apps-count">12 projects</span>
+      <span class="apps-count">17 projects</span>
     </div>
-    <div class="apps-grid">
-      <div class="apps-col">
-        <!-- PokeFit -->
-        <a href="https://pokefit.vercel.app/" class="app-card" target="_blank" rel="noopener">
-          <div class="app-img"><img src="/img/pokefit.png" alt="PokeFit"></div>
-          <div class="app-body">
+    <div class="apps-list">
+      <!-- 1. PokeFit -->
+      <a href="https://pokefit.vercel.app/" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/pokefit.png" alt="PokeFit"></div>
+        <div class="app-body">
+          <span class="badge badge-green">Web App</span>
+          <h3 class="app-title">PokeFit</h3>
+          <p class="app-desc">Find the Pok&eacute;mon with the same height and weight as you.</p>
+        </div>
+      </a>
+      <!-- 2. Git First Commit -->
+      <a href="https://git-first-commit.2wua4nlyi4102.workers.dev/" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/git-first-commit.png" alt="git-first-commit"></div>
+        <div class="app-body">
+          <span class="badge badge-green">Web App</span>
+          <h3 class="app-title">Git First Commit</h3>
+          <p class="app-desc">Find the first commit of any GitHub repository.</p>
+        </div>
+      </a>
+      <!-- 3. Game House -->
+      <a href="https://game-house.2wua4nlyi4102.workers.dev/" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/game-house.jpeg" alt="game-house"></div>
+        <div class="app-body">
+          <span class="badge badge-green">Web App</span>
+          <h3 class="app-title">Game House</h3>
+          <p class="app-desc">Curate participatory game streams on YouTube, TwitCasting, and Openrec.</p>
+        </div>
+      </a>
+      <!-- 4. iyashi -->
+      <a href="https://github.com/Doarakko/iyashi-edge" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/iyashi.gif" alt="iyashi"></div>
+        <div class="app-body">
+          <span class="badge badge-green">Slack Bot</span>
+          <h3 class="app-title">iyashi</h3>
+          <p class="app-desc">Slack bot that randomly returns the pictures of animals you posted. When you post a picture of an animal, it will be automatically classified and registered.</p>
+        </div>
+      </a>
+      <!-- 5. Kagoole Bot -->
+      <a href="https://x.com/kagoole" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/kagoole-twitter.png" alt="Kagoole"></div>
+        <div class="app-body">
+          <span class="badge badge-green">Twitter Bot</span>
+          <h3 class="app-title">Kagoole</h3>
+          <p class="app-desc">Tweet when new Kaggle competition is launched.</p>
+        </div>
+      </a>
+      <!-- 6. draw-action -->
+      <a href="https://github.com/Doarakko/draw-action" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/draw-action.gif" alt="draw-action"></div>
+        <div class="app-body">
+          <span class="badge badge-gray">GitHub Actions</span>
+          <h3 class="app-title">draw-action</h3>
+          <p class="app-desc">Draw Yu-Gi-Oh! Card on GitHub issue.</p>
+        </div>
+      </a>
+      <!-- 6. action-lgtmoon -->
+      <a href="https://github.com/Doarakko/action-lgtmoon" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/action-lgtmoon.gif" alt="action-lgtmoon"></div>
+        <div class="app-body">
+          <span class="badge badge-gray">GitHub Actions</span>
+          <h3 class="app-title">action-lgtmoon</h3>
+          <p class="app-desc">Post LGTM image on GitHub Issue and Pull request.</p>
+        </div>
+      </a>
+      <!-- 7. action-switchbot -->
+      <a href="https://github.com/Doarakko/action-switchbot" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/action-switchbot.png" alt="action-switchbot"></div>
+        <div class="app-body">
+          <span class="badge badge-gray">GitHub Actions</span>
+          <h3 class="app-title">action-switchbot</h3>
+          <p class="app-desc">Operate SwitchBot using GitHub Actions.</p>
+        </div>
+      </a>
+      <!-- 8. bigburger -->
+      <a href="https://github.com/Doarakko/bigburger" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/bigburger.gif" alt="bigburger"></div>
+        <div class="app-body">
+          <span class="badge badge-gray">CLI</span>
+          <h3 class="app-title">bigburger</h3>
+          <p class="app-desc">Command line tool displayed big burger with toppings.</p>
+        </div>
+      </a>
+      <!-- 11. draw -->
+      <a href="https://github.com/Doarakko/draw" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/draw-sample.gif" alt="draw"></div>
+        <div class="app-body">
+          <span class="badge badge-gray">CLI</span>
+          <h3 class="app-title">draw</h3>
+          <p class="app-desc">Draw Yu-Gi-Oh! Card.</p>
+        </div>
+      </a>
+      <!-- 12. kon -->
+      <a href="https://github.com/Doarakko/kon" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/kon.gif" alt="kon"></div>
+        <div class="app-body">
+          <span class="badge badge-gray">CLI</span>
+          <h3 class="app-title">kon</h3>
+          <p class="app-desc">Display fox image in the terminal.</p>
+        </div>
+      </a>
+      <!-- 13. tvshow -->
+      <a href="https://github.com/Doarakko/tvshow" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/tvshow.png" alt="tvshow"></div>
+        <div class="app-body">
+          <span class="badge badge-gray">CLI</span>
+          <h3 class="app-title">tvshow</h3>
+          <p class="app-desc">Display Japanese TV schedules in the terminal.</p>
+        </div>
+      </a>
+      <!-- 13. yattoite -->
+      <a href="https://github.com/Doarakko/yattoite" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/yattoite.png" alt="yattoite"></div>
+        <div class="app-body">
+          <span class="badge badge-green">Slack Bot</span>
+          <h3 class="app-title">yattoite</h3>
+          <p class="app-desc">Slack bot that responds on my behalf on holidays.</p>
+        </div>
+      </a>
+      <!-- 14. 252 -->
+      <a href="https://github.com/Doarakko/252" class="app-card" target="_blank" rel="noopener">
+        <div class="app-img"><img src="/img/252.png" alt="252"></div>
+        <div class="app-body">
+          <span class="badge badge-green">Slack Bot</span>
+          <h3 class="app-title">252</h3>
+          <p class="app-desc">Slack bot that sends a message to the last person in the office.</p>
+        </div>
+      </a>
+      <!-- 15. Kagoogle Web App (Discontinued) -->
+      <div class="app-card discontinued">
+        <div class="app-img"><img src="/img/kagoole.jpg" alt="Kagoogle"></div>
+        <div class="app-body">
+          <div class="app-badges">
             <span class="badge badge-green">Web App</span>
-            <h3 class="app-title">PokeFit</h3>
-            <p class="app-desc">Find the Pok&eacute;mon with the same height and weight as you.</p>
+            <span class="badge badge-discontinued">Discontinued</span>
           </div>
-        </a>
-        <!-- draw-action -->
-        <a href="https://github.com/Doarakko/draw-action" class="app-card" target="_blank" rel="noopener">
-          <div class="app-img"><img src="/img/draw-action.gif" alt="draw-action"></div>
-          <div class="app-body">
-            <span class="badge badge-gray">GitHub Actions</span>
-            <h3 class="app-title">draw-action</h3>
-            <p class="app-desc">Draw Yu-Gi-Oh! Card on GitHub issue.</p>
-          </div>
-        </a>
-        <!-- action-lgtmoon -->
-        <a href="https://github.com/Doarakko/action-lgtmoon" class="app-card" target="_blank" rel="noopener">
-          <div class="app-img"><img src="/img/action-lgtmoon.gif" alt="action-lgtmoon"></div>
-          <div class="app-body">
-            <span class="badge badge-gray">GitHub Actions</span>
-            <h3 class="app-title">action-lgtmoon</h3>
-            <p class="app-desc">Post LGTM image on GitHub Issue and Pull request.</p>
-          </div>
-        </a>
-        <!-- action-switchbot -->
-        <a href="https://github.com/Doarakko/action-switchbot" class="app-card" target="_blank" rel="noopener">
-          <div class="app-img"><img src="/img/action-switchbot.png" alt="action-switchbot"></div>
-          <div class="app-body">
-            <span class="badge badge-gray">GitHub Actions</span>
-            <h3 class="app-title">action-switchbot</h3>
-            <p class="app-desc">Operate SwitchBot using GitHub Actions.</p>
-          </div>
-        </a>
-        <!-- iyashi -->
-        <a href="https://github.com/Doarakko/iyashi" class="app-card" target="_blank" rel="noopener">
-          <div class="app-img"><img src="/img/iyashi-sample.gif" alt="iyashi"></div>
-          <div class="app-body">
-            <span class="badge badge-green">Bot</span>
-            <h3 class="app-title">iyashi</h3>
-            <p class="app-desc">Slack bot that randomly returns the pictures of animals you posted.</p>
-          </div>
-        </a>
-        <!-- Kagoole Bot -->
-        <a href="https://twitter.com/kagoole" class="app-card" target="_blank" rel="noopener">
-          <div class="app-img"><img src="/img/kagoole-example.png" alt="Kagoole"></div>
-          <div class="app-body">
-            <span class="badge badge-green">Bot</span>
-            <h3 class="app-title">Kagoole</h3>
-            <p class="app-desc">Tweet when new Kaggle competition is launched.</p>
-          </div>
-        </a>
+          <h3 class="app-title">Kagoole</h3>
+          <p class="app-desc">Search kaggle competitions and solutions based on data and predict type, evaluation metric, etc.</p>
+        </div>
       </div>
-      <div class="apps-col">
-        <!-- yattoite -->
-        <a href="https://github.com/Doarakko/yattoite" class="app-card" target="_blank" rel="noopener">
-          <div class="app-img"><img src="/img/yattoite.png" alt="yattoite"></div>
-          <div class="app-body">
-            <span class="badge badge-green">Bot</span>
-            <h3 class="app-title">yattoite</h3>
-            <p class="app-desc">Slack bot that responds on my behalf on holidays.</p>
+      <!-- 16. Kaggle Calendar (Discontinued) -->
+      <div class="app-card discontinued">
+        <div class="app-img"><img src="/img/kaggle-calendar.jpg" alt="Kaggle Calendar"></div>
+        <div class="app-body">
+          <div class="app-badges">
+            <span class="badge badge-green">Web App</span>
+            <span class="badge badge-discontinued">Discontinued</span>
           </div>
-        </a>
-        <!-- 252 -->
-        <a href="https://github.com/Doarakko/252" class="app-card" target="_blank" rel="noopener">
-          <div class="app-img"><img src="/img/252.png" alt="252"></div>
-          <div class="app-body">
-            <span class="badge badge-green">Bot</span>
-            <h3 class="app-title">252</h3>
-            <p class="app-desc">Slack bot that sends a message to the last person in the office.</p>
+          <h3 class="app-title">Kaggle Calendar</h3>
+          <p class="app-desc">Kaggle Google Calendar.</p>
+        </div>
+      </div>
+      <!-- 17. 漢番付 (Discontinued) -->
+      <div class="app-card discontinued">
+        <div class="app-img"><img src="/img/otoko-banzuke.jpg" alt="漢番付"></div>
+        <div class="app-body">
+          <div class="app-badges">
+            <span class="badge badge-green">Web App</span>
+            <span class="badge badge-discontinued">Discontinued</span>
           </div>
-        </a>
-        <!-- bigburger -->
-        <a href="https://github.com/Doarakko/bigburger" class="app-card" target="_blank" rel="noopener">
-          <div class="app-img"><img src="/img/bigburger-sample.gif" alt="bigburger"></div>
-          <div class="app-body">
-            <span class="badge badge-gray">CLI</span>
-            <h3 class="app-title">bigburger</h3>
-            <p class="app-desc">Command line tool displayed big burger with toppings.</p>
-          </div>
-        </a>
-        <!-- draw -->
-        <a href="https://github.com/Doarakko/draw" class="app-card" target="_blank" rel="noopener">
-          <div class="app-img"><img src="/img/draw-sample.gif" alt="draw"></div>
-          <div class="app-body">
-            <span class="badge badge-gray">CLI</span>
-            <h3 class="app-title">draw</h3>
-            <p class="app-desc">Draw Yu-Gi-Oh! Card.</p>
-          </div>
-        </a>
-        <!-- kon -->
-        <a href="https://github.com/Doarakko/kon" class="app-card" target="_blank" rel="noopener">
-          <div class="app-img"><img src="/img/kon-sample.gif" alt="kon"></div>
-          <div class="app-body">
-            <span class="badge badge-gray">CLI</span>
-            <h3 class="app-title">kon</h3>
-            <p class="app-desc">Display fox image in the terminal.</p>
-          </div>
-        </a>
-        <!-- tvshow -->
-        <a href="https://github.com/Doarakko/tvshow" class="app-card" target="_blank" rel="noopener">
-          <div class="app-img app-img-placeholder" style="background:#1a1918">
-            <i data-lucide="tv" style="width:48px;height:48px;color:#6D6C6A"></i>
-          </div>
-          <div class="app-body">
-            <span class="badge badge-gray">CLI</span>
-            <h3 class="app-title">tvshow</h3>
-            <p class="app-desc">Display Japanese TV schedules in the terminal.</p>
-          </div>
-        </a>
+          <h3 class="app-title">漢番付</h3>
+          <p class="app-desc">Search Otoko from YouTube comments, and make banzuke based on comment like count.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -233,13 +308,6 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <p class="footer-text">Made with care by Doarakko</p>
-    <div class="footer-links">
-      <a href="https://github.com/Doarakko" class="footer-link">GitHub</a>
-      <a href="https://twitter.com/dodododoarakko" class="footer-link">X / Twitter</a>
-      <a href="https://zenn.dev/peperoncicicino" class="footer-link">Zenn</a>
-      <a href="mailto:e8v644i4h48cd2@gmail.com" class="footer-link">Email</a>
-    </div>
     <p class="footer-copy">&copy; 2019 Doarakko. All rights reserved.</p>
   </footer>
 
